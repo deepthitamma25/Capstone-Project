@@ -32,8 +32,8 @@ doctors or care for the hospital.
 
 ## Project Objectives
 
- The Fairfax County Fire & Rescue Department needs a mechanism to determine the provider's collaboration with the Emergency Medical Services manual and the instructions published by 
- the Officer of Medical Director regarding the patient transport destinations. 
+The Fairfax County Fire & Rescue Department needs a mechanism to determine the provider's collaboration with the Emergency Medical Services manual and the instructions published by 
+the Officer of Medical Director regarding the patient transport destinations. 
 
  ## Solution Space
 Our system delivers accuracy to the Fairfax Department which provides accuracy reports for the emergency service. There is no department that is flawless, which is why with our 
@@ -43,12 +43,39 @@ which results in saving the lives of people.
 We formulate the best recommendation based on: 
 -	Matching clinical need and ED capability – Trauma center, stroke center, STEMI center, etc.
 -	Home hospital status – If all the patient's treatment is provided by a single hospital or health system, every effort should be taken to relocate the patient to that site — this includes patients who have recently undergone surgery. 
-●	Patient preference is considered both step one and step two.
-●	If the patient’s preference involves a long transport interval (greater than 60 minutes one way), contact the UFO and EMS Supervisor for approval. 
-●	If the patient requests transport out of state, contact the UFO and EMS Supervisor for approval.
-●	If system demand is high and/or unit availability low, then contact the UFO       and EMS Supervisor for approval. 
-●	Step two is crucial if the patient's desire poses a risk owing to instability or a poor match to clinical need/ED capability, so the patient is aware of the dangers connected with their choice when we recommend differently.
-●	Proximity is a factor to be considered but should not be the sole determinant. (Rescue, 2019)
+-	Patient preference is considered both step one and step two.
+-	If the patient’s preference involves a long transport interval (greater than 60 minutes one way), contact the UFO and EMS Supervisor for approval. 
+- If the patient requests transport out of state, contact the UFO and EMS Supervisor for approval.
+-	If system demand is high and/or unit availability low, then contact the UFO       and EMS Supervisor for approval. 
+-	Step two is crucial if the patient's desire poses a risk owing to instability or a poor match to clinical need/ED capability, so the patient is aware of the dangers connected with their choice when we recommend differently.
+-	Proximity is a factor to be considered but should not be the sole determinant. (Rescue, 2019)
+
+
+## Definition of Terms
+
+There are certain terms which need to be explained for a better understanding. There are listed below: 
+
+ALS - Advanced Life Support
+BLS - Basic Life Support
+ACCIMF - Accident with Injury
+CPRF - Cardiac Arrest - CPR in progress
+EMS - Emergency Medical Services
+
+
+## Data Context:
+Data Context is defined as the network of connections among data points. Those connections may be created as metadata or simply identified and correlated. In the dataset that was provided to us, we consider the Primary Key data item to be the data point. As Primary key has all the information about a specific incident like patient information. Units transported, Injury Type, Medication Given and Level of Care (LOC) given to the patient. This data point holds significance and useful information about events for the organization. 
+
+There are also 4 Level of Care:
+Level 1: Situations requiring immediate treatment.
+Level 2: Acute ALS patient who will require active, continuing ALS treatment while being transported.
+Level 3: A stable patient who will be monitored for ALS but will not require active treatment during transit.
+Level 4: A stable patient who requires BLS or monitoring while being transported.
+
+## Data Conditioning
+Data conditioning improves data flow and administration to safeguard and boost efficiency. Data conditioning allows both cloud and business data centers to dramatically enhance the allocation of system resources while increasing application performance by using specialized techniques meant to route, optimize, and secure stored data or data as it flows through a computer system. As a result, both operational and capital expenses are reduced. All the columns of the datasets are specified in a certain condition so that the values which are entered follow proper constraints and the values that do not fit the constraint are replaced. 
+
+## Data Quality Assessment
+
 
 
 

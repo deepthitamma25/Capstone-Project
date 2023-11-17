@@ -53,9 +53,11 @@ We formulate the best recommendation based on:
 
 
 DOMAIN OF PROBLEM: Health Care (Service Operations to Local Communities) 
-IMPORTANCE OF PROBLEM:  For providing better safety to the people, there needs to be better understanding of the process that is being followed and if the providers are following the guidelines mentioned by the department and are all the patterns between different factors being reasonable to find out where there is a lag and what needs to be improved.
+IMPORTANCE OF PROBLEM:  For providing better safety to the people, there needs to be better understanding of the process that is being followed and if the providers are following 
+the guidelines mentioned by the department and are all the patterns between different factors being reasonable to find out where there is a lag and what needs to be improved.
 To determine whether providers are compliant with the Emergency Medical Services (EMS) manual and Office of the Medical Director (OMD) directives regarding patient transport destinations.
-To find if there are any patterns in the transport decision-making for different, shifts, fire stations, units, and providers given the location of the incident, the location of the transport destination, and the reason for choosing that destination. 
+To find if there are any patterns in the transport decision-making for different, shifts, fire stations, units, and providers given the location of the incident, the location of the
+transport destination, and the reason for choosing that destination. 
 WHY DATA ANALYSIS:  
 To extract insights of problems that are being faced.
 To improve resource availability of resources to combat incidents.

@@ -32,6 +32,18 @@ doctors or care for the hospital.
 
 ## Project Objectives
 
+**DOMAIN OF PROBLEM:** Health Care (Service Operations to Local Communities) 
+**IMPORTANCE OF PROBLEM:**  For providing better safety to the people, there needs to be better understanding of the process that is being followed and if the providers are following 
+the guidelines mentioned by the department and are all the patterns between different factors being reasonable to find out where there is a lag and what needs to be improved.
+To determine whether providers are compliant with the Emergency Medical Services (EMS) manual and Office of the Medical Director (OMD) directives regarding patient transport destinations.
+To find if there are any patterns in the transport decision-making for different, shifts, fire stations, units, and providers given the location of the incident, the location of the
+transport destination, and the reason for choosing that destination. 
+
+### WHY DATA ANALYSIS: 
+- To extract insights of problems that are being faced.
+- To improve resource availability of resources to combat incidents.
+- To identify any training needs.
+
 The Fairfax County Fire & Rescue Department needs a mechanism to determine the provider's collaboration with the Emergency Medical Services manual and the instructions published by 
 the Officer of Medical Director regarding the patient transport destinations. 
 
@@ -76,19 +88,50 @@ Data conditioning improves data flow and administration to safeguard and boost e
 
 ## Data Quality Assessment
 
+Replaced null values with mean for numerical data and Mode with nominal data. Discarded the null values for date as it means the incident isn’t recorded properly. Discarded all the records that aren’t recorded properly. Calculated LOC Compliancy, Time Compliancy and Hospital Compliancy and the overall compliancy. 
+
 <img width="684" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/8e8db00b-8182-45dd-952c-df5a5a40c516">
 
+## Data Analysis: Understanding the data
 
+Finding the Correlation between Patient ID, Primary Key, Incident First Due, Unit Station, Transport Hospital Code, Time Taken, Time Compliancy, Hospital Compliancy, LOC Compliancy, Compliancy 
 
-DOMAIN OF PROBLEM: Health Care (Service Operations to Local Communities) 
-IMPORTANCE OF PROBLEM:  For providing better safety to the people, there needs to be better understanding of the process that is being followed and if the providers are following 
-the guidelines mentioned by the department and are all the patterns between different factors being reasonable to find out where there is a lag and what needs to be improved.
-To determine whether providers are compliant with the Emergency Medical Services (EMS) manual and Office of the Medical Director (OMD) directives regarding patient transport destinations.
-To find if there are any patterns in the transport decision-making for different, shifts, fire stations, units, and providers given the location of the incident, the location of the
-transport destination, and the reason for choosing that destination. 
-WHY DATA ANALYSIS:  
-To extract insights of problems that are being faced.
-To improve resource availability of resources to combat incidents.
-To identify any training needs.
+<img width="471" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/fa9c88cc-0957-45f7-962d-ba2ef2251652">
 
+Since correlation between unit and location of incident is high, we are trying to prove that one unit is taking care of one location most of the times. And when we tried to find which Unit is the most active and the location it is reaching to, it is shown that M422 is most active and is responding to  spring field.
+
+<img width="480" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/ec1a52a9-159c-4f8c-9aac-30ba2268a718">
+
+To check if the Providers are Compliant with the Emergency Medical Services Manual with respect to the Level of Care( LOC) during transport depending upon the patient’s Primary Impression
+
+<img width="305" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/98d4208b-f6fc-49d6-a1fe-e148f4a3eb9a">
+
+To check if the providers are compliant with the Emergency Medical Services Manual in their particular shifts
+
+<img width="407" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/abb1490d-0e91-421a-b537-863898622af8">
+
+## Visualizations to find the patterns
+
+The graph shows, Fairfax Hospital is chosen most if the times and Medstar is chosen least number of times.
+
+<img width="621" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/70087180-a868-4cd7-846c-85f4466c3415">
+
+Of all the units, transporting the patients to the hospital, M422 is the unit that is most compliant with respect to the EMS manual 
+
+<img width="594" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/769813d2-bbff-4f71-8622-1aadc047f71b">
+
+This visualization represents the average Time taken by each unit to transport the patient from the location of the incident to the hospital and the least time is taken by the unit M425
+
+<img width="540" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/61d02e21-f869-474b-965d-debec47a7ae0">
+
+## Summary
+
+- From the first visualization, we see that the hospitals to which the patients are transported to takes less than 60 minutes which indicates that they need not take the approval of supervisor rather take the patient to the hospital that was preferred. 
+- The above plots explain the distance from the incident happened to the Hospital. From the heat map, it is evident that Medstar is the farthest and so it is taking a lot of time.
+- This shows that the hospital is located at the farthest in the proximity of Fairfax department. And this is the least preferred hospital even if it has all the facilities available since it takes time to reach.
+- The most people treated with the providers are the old people. We can see there is a decline in the providers count as the age decreases.
+- This visualization shows how many units have covered the greatest number of shifts. Shift C has the greatest number of units with around 97851 units being in the shift. Shift B has the least number of units with 95842. 
+- We have found that shift C is the most compliant with the EMS manual and the Shift A is the least compliant with very less Margin.
+- We have found that LOC 3: 1 is the most compliant and LOC 1:3 is the least compliant.
+- According to the manual, primary impression like Respiratory, Cardiovascular disease, trauma should be provided with  Level of care 1 and 2 but we see that Level 3 is preferred mostly.
 

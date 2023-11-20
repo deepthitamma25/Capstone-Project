@@ -67,11 +67,11 @@ We formulate the best recommendation based on:
 
 There are certain terms which need to be explained for a better understanding. There are listed below: 
 
-ALS - Advanced Life Support
-BLS - Basic Life Support
-ACCIMF - Accident with Injury
-CPRF - Cardiac Arrest - CPR in progress
-EMS - Emergency Medical Services
+- ALS - Advanced Life Support
+- BLS - Basic Life Support
+- ACCIMF - Accident with Injury
+- CPRF - Cardiac Arrest - CPR in progress
+- EMS - Emergency Medical Services
 
 
 ## Data Context:

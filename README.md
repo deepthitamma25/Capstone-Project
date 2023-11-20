@@ -76,6 +76,7 @@ Data conditioning improves data flow and administration to safeguard and boost e
 
 ## Data Quality Assessment
 
+<img width="684" alt="image" src="https://github.com/deepthitamma25/Capstone-Project/assets/89256455/8e8db00b-8182-45dd-952c-df5a5a40c516">
 
 
 
